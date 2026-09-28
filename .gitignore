@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Frontend env (contains no server secrets, but still not for the repo)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Backend secrets — never commit these
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/*firebase*adminsdk*.json
+backend/*-firebase-*.json
+backend/firebase-service-account.json
+
+# Generated demo/report files that land in the project root while testing
+# the app locally (contain patient-report content — not source, not for git)
+/*.docx
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+*.log

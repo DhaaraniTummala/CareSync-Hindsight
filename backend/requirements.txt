@@ -1,0 +1,11 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic[email]>=2.7
+pydantic-settings>=2.4
+python-dotenv>=1.0
+python-multipart>=0.0.9
+firebase-admin>=6.5
+cloudinary>=1.41
+openai>=1.40
+hindsight-client>=0.1
